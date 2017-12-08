@@ -8,8 +8,8 @@
       <div class="detail" id="detail_<%= product.id %>">
         <%= image_tag('sw.jpg', :width =>'150') %>
         <p><%= product.description %></p>
+        <p><%= number_to_currency product.price %></p>
       </div>
-      <p><%= number_to_currency product.price %></p>
       <%= form_for @order_item, remote: true do |f| %>
         <%= f.hidden_field :product_id, value: product.id %>
         <%= f.number_field :quantity %>
