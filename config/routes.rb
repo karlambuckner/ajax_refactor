@@ -11,6 +11,7 @@ Rails.application.routes.draw do
 
   resources :products
   resources :order_items
+  resource :cart
   resource :cart, only: [:show]
 
   get 'finalize' => 'carts#finalize'
