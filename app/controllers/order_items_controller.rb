@@ -7,7 +7,7 @@ class OrderItemsController < ApplicationController
     session[:order_id] = @order.id
     flash[:notice] = "This product has been added to your order."
     respond_to do |format|
-      format.html { redirect_to product_path }
+      format.html { redirect_to products_path }
       format.js
     end
   end
