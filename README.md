@@ -8,6 +8,13 @@
 
 _An online e-commerce site with a cart and incorporating AJAX._
 
+## Updates
+
+* _Add and update gems_
+* _Add image to products_
+* _Show product details with AJAX using toggle_
+* _Delete items from cart and update total with AJAX_
+
 ## Setup/Installation Requirements
 
 * _Clone this repository_
