@@ -16,6 +16,7 @@ _An online e-commerce site with a cart and incorporating AJAX._
 * _Show product details with AJAX using toggle_
 * _Delete items from cart and update total with AJAX_
 * _Add validation for item quantity- must be a positive integer_
+* _Add flash messages for successful sign-up, sign-in and sign-out_
 
 
 ## Setup/Installation Requirements
@@ -23,9 +24,9 @@ _An online e-commerce site with a cart and incorporating AJAX._
 * _Clone this repository_
 * _CD into project_
 * _$ bundle install_
-* _$ rake db:setup
+* _$ rake db:setup_
 * _$ rails s_
-* _Go to http://localhost:3000/
+* _Go to http://localhost:3000/_
 
 ## Known Bugs
 
