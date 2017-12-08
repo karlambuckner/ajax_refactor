@@ -32,7 +32,13 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'materialize-sass'
-
+gem 'devise'
+gem 'faker'
+gem 'paperclip', '~> 4.1'
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'stripe'
+gem 'rest-client'
+gem 'dotenv-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -40,7 +46,11 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'pry'
-  gem 'faker'
+  gem 'launchy'
+  gem 'shoulda-matchers'
+  gem 'capybara'
+  gem "factory_bot_rails", "~> 4.0"
+  gem 'simplecov', require: false
 end
 
 group :development do
