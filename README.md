@@ -17,6 +17,7 @@ _An online e-commerce site with a cart and incorporating AJAX._
 * _Delete items from cart and update total with AJAX_
 * _Add validation for item quantity- must be a positive integer_
 * _Add flash messages for successful sign-up, sign-in and sign-out_
+* _Even out the column/row grid_
 
 
 ## Setup/Installation Requirements

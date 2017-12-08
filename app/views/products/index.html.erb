@@ -3,7 +3,7 @@
 <div class="row">
   <div class="section">
   <% @products.each do |product| %>
-    <div class="col s4">
+    <div class="col sm-3">
       <h4><%= link_to product.name, product_path(product), remote: true %></h4>
       <div class="detail" id="detail_<%= product.id %>">
         <%= image_tag('sw.jpg', :width =>'150') %>
