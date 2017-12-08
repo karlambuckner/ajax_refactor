@@ -5,6 +5,11 @@ class OrderItemsController < ApplicationController
     @item = @order.order_items.new(item_params)
     @order.save
     session[:order_id] = @order.id
+    flash[:notice] = "This product has been added to your order."
+      respond_to do |format|
+        format.html { redirect_to product_path }
+        format.js
+      end
     redirect_to products_path
   end
 
