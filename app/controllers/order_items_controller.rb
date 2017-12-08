@@ -12,6 +12,11 @@ class OrderItemsController < ApplicationController
     end
   end
 
+  def show
+    @order = current_order
+    @item = @order.order_items.find(params[:id])
+  end
+
   def update
     @order = current_order
     @item = @order.order_items.find(params[:id])
