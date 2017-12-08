@@ -15,6 +15,7 @@ _An online e-commerce site with a cart and incorporating AJAX._
 * _Add item to cart from index page, updating items in cart using AJAX_
 * _Show product details with AJAX using toggle_
 * _Delete items from cart and update total with AJAX_
+* _Add validation for item quantity- must be a positive integer_
 
 
 ## Setup/Installation Requirements
