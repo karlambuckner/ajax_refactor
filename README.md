@@ -1,9 +1,36 @@
-# README
+# _E-Commerce Site_
 
-E-commerce site. Uses `bcrypt` and `materialize`. There's a seed file. Set up your own admin. If you have questions, I'll be in Bali with no email. Ask someone else.
+#### _An app for an online e-commerce site. 12-08-2017_
 
-To set up:
+#### By _**Karla Buckner**_
 
-* `rake db:setup`
+## Description
 
-* Sorry, didn't get around to tests. It mostly works. There might be a few bugs.
+_An online e-commerce site with a cart and incorporating AJAX._
+
+## Setup/Installation Requirements
+
+* _Clone this repository_
+* _CD into project_
+* _$ bundle install_
+* _$ rake db:setup
+* _$ rails s_
+* _Go to http://localhost:3000/
+
+## Known Bugs
+
+_There are no known bugs at this time._
+
+## Support and contact details
+
+_Contact kmb2662@gmail.com or contribute to my Github_
+
+## Technologies Used
+
+_Ruby, Rails, CSS, HTML, Bootstrap, JavaScript, AJAX_
+
+### License
+
+*MIT LICENSE*
+
+Copyright (c) 2017 **_Karla Buckner_**
