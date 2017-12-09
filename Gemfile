@@ -52,6 +52,9 @@ group :development, :test do
   gem 'capybara'
   gem "factory_bot_rails", "~> 4.0"
   gem 'simplecov', require: false
+  gem 'stripe'
+  gem 'rest-client'
+  gem 'dotenv-rails'
 end
 
 group :development do

@@ -20,6 +20,7 @@ _An online e-commerce site with a cart and incorporating AJAX._
 * _Even out the column/row grid_
 * _Add validations and passing specs for products_
 * _Add validations for password complexity and specs for user_
+* _Incorporate stripe payment_
 
 ## Setup/Installation Requirements
 
