@@ -19,6 +19,7 @@ _An online e-commerce site with a cart and incorporating AJAX._
 * _Add flash messages for successful sign-up, sign-in and sign-out_
 * _Even out the column/row grid_
 * _Add validations and passing specs for products_
+* _Add validations for password complexity and specs for user_
 
 ## Setup/Installation Requirements
 
