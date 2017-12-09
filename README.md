@@ -8,7 +8,7 @@
 
 _An online e-commerce site with a cart and incorporating AJAX._
 
-## Updates
+## Refactoring Changes
 
 * _Add and update gems_
 * _Add image to products_
@@ -30,6 +30,12 @@ _An online e-commerce site with a cart and incorporating AJAX._
 * _$ rake db:setup_
 * _$ rails s_
 * _Go to http://localhost:3000/_
+
+Run these test keys in terminal to test stripe works:
+
+PUBLISHABLE_KEY=pk_test_6pRNASCoBOKtIshFeQd4XMUh \
+SECRET_KEY=sk_test_BQokikJOvBiI2HlWgH4olfQ2 rails s
+
 
 ## Known Bugs
 
